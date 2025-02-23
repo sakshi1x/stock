@@ -10,7 +10,9 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+required_dirs = ["models", "data/raw"]
+for directory in required_dirs:
+    os.makedirs(directory, exist_ok=True)
 def load_predictions(symbol):
     """Load predictions from CSV file if it exists"""
     file_path = f"data/raw/{symbol}_predictions.csv"

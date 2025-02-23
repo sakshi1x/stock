@@ -75,7 +75,7 @@ def predict_stock(symbol):
         'date': [START_DATE],
         'end date':[END_DATE],
         'prediction': [prediction],
-        'confidence': [abs(prediction)] , # Example metric
+       
 
 
     })

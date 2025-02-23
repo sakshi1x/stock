@@ -6,19 +6,25 @@ This project implements hybrid machine learning models to predict stock prices f
 ### Prediction Time Period
 **January 21, 2024 - July 21, 2024**  
 All predictions are made for this specific 6-month period as required by the competition guidelines.
-The overall accuracy of my predictions is 68.78%.  🚀 ​​
+
 
 
 
 
 ## Models Predictions vs Actual Prices
 
-Stock	Symbol	Predicted Price	Actual Price	Accuracy (%)
-Celsius Holdings	CELH	$20.53	$46.83	43.85%
-Carvana Co	CVNA	$413.34	$223.30	53.98%
-Upstart Holdings	UPST	$78.92	$71.77	90.96%
-Altimmune	ALT	$5.56	$6.43	86.50%
-fuboTV Inc	FUBO	$2.58	$3.76	68.62%
+## Stock Prediction Results
+
+| Stock            | Symbol | Predicted Price | Actual Price | Accuracy (%) |
+|-----------------|--------|----------------|--------------|-------------|
+| Celsius Holdings | CELH   | $20.53         | $46.83       | 43.85%      |
+| Carvana Co      | CVNA   | $413.34        | $223.30      | 53.98%      |
+| Upstart Holdings | UPST   | $78.92         | $71.77       | 90.96%      |
+| Altimmune       | ALT    | $5.56          | $6.43        | 86.50%      |
+| fuboTV Inc      | FUBO   | $2.58          | $3.76        | 68.62%      |
+
+**Overall Accuracy:** 68.78%
+
 
 ![alt text](image.png)
 ![alt text](image-1.png)

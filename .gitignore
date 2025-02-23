@@ -1,0 +1,10 @@
+env/
+.env
+venv/
+.env.*
+# !.env.example
+local-env/
+*.yaml
+*.yml
+__pycache__/
+backup.py

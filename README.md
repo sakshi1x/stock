@@ -67,4 +67,4 @@ All predictions are made for this specific 6-month period as required by the com
 1. Install requirements:
 ```bash
 pip install -r requirements.txt
-python run.py
+streamlit run run.py

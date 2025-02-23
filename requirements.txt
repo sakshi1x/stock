@@ -24,4 +24,7 @@ fredapi
 
 prophet
 lime
+streamlit 
+pandas 
+plotly
 python-dotenv
